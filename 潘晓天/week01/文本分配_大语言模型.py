@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(
 
-    api_key="sk-c034bcc778cb458589be6b69940ed402", # 账号绑定，用来计费的
+    api_key="sk-c034bcc778xxxxx9940ed402", # 账号绑定，用来计费的
 
     # 大模型厂商的地址，阿里云
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
@@ -41,3 +41,4 @@ if __name__ == "__main__":
     # pandas 用来进行表格的加载和分析
     # numpy 从矩阵的角度进行加载和计算
     print("大语言模型: ", text_calssify_using_llm(PURP))
+
